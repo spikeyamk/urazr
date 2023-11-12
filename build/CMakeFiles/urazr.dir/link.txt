@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/urazr.dir/main.c.o CMakeFiles/urazr.dir/lib/urazr.c.o -o urazr 
