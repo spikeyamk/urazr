@@ -8,7 +8,7 @@
 #include "urazr.h"
 
 void usage(const char *const argv[]) {
-	fprintf(stderr, "Usage: %s <length up to %d> [--c-style]\n", argv[0], MAX_LEN);
+	fprintf(stderr, "Usage: %s <length up to %d> [--c-style | --cpp-style]\n", argv[0], MAX_LEN);
 }
 
 bool validate_argv_count(const int argc) {
@@ -98,6 +98,25 @@ bool use_c_style_array(const int argc, const char *const argv[]) {
 
 void print_c_style_array(const uint8_t *const buffer, const size_t len) {
 	printf("const uint8_t data[%zu] = {", len);
+	for(size_t i = 0; i < len; i++) {
+		if(i % 8 == 0) {
+			printf("\n\t");
+		}
+		printf("0x%02x, ", buffer[i]);
+	}
+	printf("\n};\n");
+}
+
+bool use_cpp_style_array(const int argc, const char *const argv[]) {
+	if(argc == 3 && strcmp(argv[2], "--cpp-style") == 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+void print_cpp_style_array(const uint8_t *const buffer, const size_t len) {
+	printf("const std::array<uint8_t, %zu> data {", len);
 	for(size_t i = 0; i < len; i++) {
 		if(i % 8 == 0) {
 			printf("\n\t");

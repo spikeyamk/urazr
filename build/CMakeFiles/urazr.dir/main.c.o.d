@@ -1,4 +1,4 @@
-CMakeFiles/urazr.dir/main.c.o: /home/spikeyamk/urazr_makefile/main.c \
+CMakeFiles/urazr.dir/main.c.o: /home/spikeyamk/urazr/main.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -30,7 +30,7 @@ CMakeFiles/urazr.dir/main.c.o: /home/spikeyamk/urazr_makefile/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/spikeyamk/urazr_makefile/include/urazr.h /usr/include/stdlib.h \
+ /home/spikeyamk/urazr/include/urazr.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

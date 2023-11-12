@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/spikeyamk/urazr_makefile/include
+C_INCLUDES = -I/home/spikeyamk/urazr/include
 
 C_FLAGS = -g -Wall -Wextra -Wpedantic -std=gnu11
 

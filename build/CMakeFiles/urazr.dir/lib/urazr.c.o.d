@@ -1,6 +1,5 @@
-CMakeFiles/urazr.dir/lib/urazr.c.o: \
- /home/spikeyamk/urazr_makefile/lib/urazr.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/urazr.dir/lib/urazr.c.o: /home/spikeyamk/urazr/lib/urazr.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -58,4 +57,4 @@ CMakeFiles/urazr.dir/lib/urazr.c.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/spikeyamk/urazr_makefile/include/urazr.h
+ /home/spikeyamk/urazr/include/urazr.h

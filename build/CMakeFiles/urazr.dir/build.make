@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/spikeyamk/urazr_makefile
+CMAKE_SOURCE_DIR = /home/spikeyamk/urazr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/spikeyamk/urazr_makefile/build
+CMAKE_BINARY_DIR = /home/spikeyamk/urazr/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/urazr.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/urazr.dir/flags.make
 CMakeFiles/urazr.dir/main.c.o: CMakeFiles/urazr.dir/flags.make
 CMakeFiles/urazr.dir/main.c.o: ../main.c
 CMakeFiles/urazr.dir/main.c.o: CMakeFiles/urazr.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spikeyamk/urazr_makefile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/urazr.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urazr.dir/main.c.o -MF CMakeFiles/urazr.dir/main.c.o.d -o CMakeFiles/urazr.dir/main.c.o -c /home/spikeyamk/urazr_makefile/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spikeyamk/urazr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/urazr.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urazr.dir/main.c.o -MF CMakeFiles/urazr.dir/main.c.o.d -o CMakeFiles/urazr.dir/main.c.o -c /home/spikeyamk/urazr/main.c
 
 CMakeFiles/urazr.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urazr.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spikeyamk/urazr_makefile/main.c > CMakeFiles/urazr.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spikeyamk/urazr/main.c > CMakeFiles/urazr.dir/main.c.i
 
 CMakeFiles/urazr.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urazr.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spikeyamk/urazr_makefile/main.c -o CMakeFiles/urazr.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spikeyamk/urazr/main.c -o CMakeFiles/urazr.dir/main.c.s
 
 CMakeFiles/urazr.dir/lib/urazr.c.o: CMakeFiles/urazr.dir/flags.make
 CMakeFiles/urazr.dir/lib/urazr.c.o: ../lib/urazr.c
 CMakeFiles/urazr.dir/lib/urazr.c.o: CMakeFiles/urazr.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spikeyamk/urazr_makefile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/urazr.dir/lib/urazr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urazr.dir/lib/urazr.c.o -MF CMakeFiles/urazr.dir/lib/urazr.c.o.d -o CMakeFiles/urazr.dir/lib/urazr.c.o -c /home/spikeyamk/urazr_makefile/lib/urazr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spikeyamk/urazr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/urazr.dir/lib/urazr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/urazr.dir/lib/urazr.c.o -MF CMakeFiles/urazr.dir/lib/urazr.c.o.d -o CMakeFiles/urazr.dir/lib/urazr.c.o -c /home/spikeyamk/urazr/lib/urazr.c
 
 CMakeFiles/urazr.dir/lib/urazr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/urazr.dir/lib/urazr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spikeyamk/urazr_makefile/lib/urazr.c > CMakeFiles/urazr.dir/lib/urazr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/spikeyamk/urazr/lib/urazr.c > CMakeFiles/urazr.dir/lib/urazr.c.i
 
 CMakeFiles/urazr.dir/lib/urazr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/urazr.dir/lib/urazr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spikeyamk/urazr_makefile/lib/urazr.c -o CMakeFiles/urazr.dir/lib/urazr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/spikeyamk/urazr/lib/urazr.c -o CMakeFiles/urazr.dir/lib/urazr.c.s
 
 # Object files for target urazr
 urazr_OBJECTS = \
@@ -109,7 +109,7 @@ urazr: CMakeFiles/urazr.dir/main.c.o
 urazr: CMakeFiles/urazr.dir/lib/urazr.c.o
 urazr: CMakeFiles/urazr.dir/build.make
 urazr: CMakeFiles/urazr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spikeyamk/urazr_makefile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable urazr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spikeyamk/urazr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable urazr"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/urazr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/urazr.dir/clean:
 .PHONY : CMakeFiles/urazr.dir/clean
 
 CMakeFiles/urazr.dir/depend:
-	cd /home/spikeyamk/urazr_makefile/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spikeyamk/urazr_makefile /home/spikeyamk/urazr_makefile /home/spikeyamk/urazr_makefile/build /home/spikeyamk/urazr_makefile/build /home/spikeyamk/urazr_makefile/build/CMakeFiles/urazr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/spikeyamk/urazr/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/spikeyamk/urazr /home/spikeyamk/urazr /home/spikeyamk/urazr/build /home/spikeyamk/urazr/build /home/spikeyamk/urazr/build/CMakeFiles/urazr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urazr.dir/depend
 

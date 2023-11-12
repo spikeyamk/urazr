@@ -20,3 +20,5 @@ size_t load_random_data_to_buffer_return_loaded_len(uint8_t *const buffer, const
 void print_in_binary(const uint8_t *const buffer, const size_t len);
 bool use_c_style_array(const int argc, const char *const argv[]);
 void print_c_style_array(const uint8_t *const buffer, const size_t len);
+bool use_cpp_style_array(const int argc, const char *const argv[]);
+void print_cpp_style_array(const uint8_t *const buffer, const size_t len);

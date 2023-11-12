@@ -29,6 +29,8 @@ int main(const int argc, const char *const argv[]) {
 
 	if(use_c_style_array(argc, argv) == true) {
 		print_c_style_array(buffer, len);
+	} else if(use_cpp_style_array(argc, argv) == true) {
+		print_cpp_style_array(buffer, len);
 	} else {
 		print_in_binary(buffer, len);
 	}
