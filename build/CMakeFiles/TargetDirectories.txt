@@ -1,3 +1,0 @@
-/home/spikeyamk/urazr/build/CMakeFiles/urazr.dir
-/home/spikeyamk/urazr/build/CMakeFiles/edit_cache.dir
-/home/spikeyamk/urazr/build/CMakeFiles/rebuild_cache.dir
